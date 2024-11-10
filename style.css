@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    background-color: black;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+i{
+    padding: 12px;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.profile img{
+    border-radius: 50%;
+    height: 92px;
+    width: 92px;
+}
+
+
+.bio{
+    padding: 14px;
+}
+.bio span{
+    font-weight: normal;
+    color: darkgrey;
+}
+
+.highlights{
+    display: flex;
+    justify-content: space-evenly;
+}
+.highlights img{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+.story{
+    text-align: center;
+}
+
+.posts{
+    margin-top: 10px;
+}
+.posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.posts img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
